@@ -7,6 +7,10 @@ published: false
 ###Nida-I-Zamir
 
 
+
+
+
+
 When I first applied at Creanyx, I didn’t expect even an interview call. But I did receive one, after a few hours. I went there of course, scared since I couldn’t get my CV printed and in short, had woken up on the wrong side of the bed. 
 
 But as soon as I got talking to the interviewing panel, I felt at ease immediately. They were not going to cage me, and were more cooperative than I’d been expecting. I had been panicking about the CV but my parents told me if they liked me, they would accept me on the basis of my expertise, not a printed sheet of paper. And that is exactly what happened. They didn’t create a deal out of it and were flexible, asking if I had it in softcopy form.
