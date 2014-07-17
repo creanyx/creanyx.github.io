@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 
 ##Internship Experience at Creanyx
