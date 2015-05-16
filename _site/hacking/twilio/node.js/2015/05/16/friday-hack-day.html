@@ -4,8 +4,8 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 
-    <title>Your New Jekyll Site - Blogging about stuffs</title>
-    <meta name="description" content="Your New Jekyll Site, Blogging about stuffs" />
+    <title>Creanyx - We Blog here!</title>
+    <meta name="description" content="Creanyx, Expedition to Innovation, SMS, Text messages" />
 
     <meta name="HandheldFriendly" content="True" />
     <meta name="MobileOptimized" content="320" />
@@ -31,45 +31,55 @@
     <article class="post">
 
         <header class="post-header">
-            <h1 class="post-title">Welcome to Jekyll!</h1>
+            <h1 class="post-title">Hack days at Creanyx are Fridays!</h1>
             <section class="post-meta">                
-                <time class="post-date" datetime="2013-11-10">10 Nov 2013</time>
+                <time class="post-date" datetime="2015-05-16">16 May 2015</time>
                  
-                    on thriller, comedy, and horror 
+                    on hacking, twilio, and node.js 
                 
             </section>
         </header>
 
 <!--         <header class="post-header">
-            <a id="blog-logo" href="blog url">
+            <a id="blog-logo" href="http://creanyx.github.io">
                 
-                    <span class="blog-title">Your New Jekyll Site</span>
+                    <span class="blog-title">Creanyx</span>
                  
             </a>
         </header> -->
         
         <!-- <span class="post-meta">
-            <time datetime="2013-11-10">10 Nov 2013</time>
+            <time datetime="2015-05-16">16 May 2015</time>
              
-                on thriller, comedy, and horror 
+                on hacking, twilio, and node.js 
             
         </span> -->
 
-        <!-- <h1 class="post-title">Welcome to Jekyll!</h1> -->
+        <!-- <h1 class="post-title">Hack days at Creanyx are Fridays!</h1> -->
 
         <section class="post-content">
-            <p>You&#39;ll find this post in your <code>_posts</code> directory - edit this post and re-build (or run with the <code>-w</code> switch) to see your changes!
-To add new posts, simply add a file in the <code>_posts</code> directory that follows the convention: YYYY-MM-DD-name-of-post.ext.</p>
+            <p>At Creanyx we are oganizing Hackdays on Fridays. We will spend half of the day wokring on awesome new ideas as well as contributing to open source community.</p>
 
-<p>Jekyll also offers powerful support for code snippets:</p>
+<p>This Friday we worked to solve a paticular problem that I faced once I went for Hiking. Here in Islamabad where we go for hike, we have a bad reception for 3G and a common problem to get in connection with new hiking group members is the need to share contact numbers.</p>
 
-<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
-  <span class="nb">puts</span> <span class="s2">&quot;Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">&quot;</span>
-<span class="k">end</span>
-<span class="n">print_hi</span><span class="p">(</span><span class="s1">&#39;Tom&#39;</span><span class="p">)</span>
-<span class="c1">#=&gt; prints &#39;Hi, Tom&#39; to STDOUT.</span></code></pre></div>
+<p>Here is the scenario: I went for hiking and I meet 5-6 new hiking members and we want to share contact numbers with each other, one solution is that I visit each member and collect the number and every other member has to do same. This can be good for small numbers but it can go wild if members are greater in number.</p>
 
-<p>Check out the <a href="http://jekyllrb.com">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/mojombo/jekyll">Jekyll&#39;s GitHub repo</a>.</p>
+<p>There is an obvious solution that we can get in contact with each other and that is to use an online group like facebook group, but lets suppose no one is on facebook :P (obviously that is an assumtion) so for that case we all need to share each other&#39;s contact number with each other.</p>
+
+<p>We solved this using Twilio and here is the breakdown of how it works:</p>
+
+<ul>
+<li>One of the group member sends a request to a twilio number with a paticulat text saying &quot;list&quot;.</li>
+<li>Twilio number sends back a randomly generated identifier with text saying &quot;Ask your group to send me <id> in message body with in 5mins.&quot;</li>
+<li>Every member sends that id to the twilio number and that&#39;s all.</li>
+<li>After 5 minutes each member who opted in will recieve a text message which includes the numbers of each member. </li>
+</ul>
+
+<p>Here is the screen shot in action.</p>
+
+<p>That was fun working out. We have also introduced a space at Creanyx calling it RELAX.JS which basically says relax and write Javascript.</p>
+
+<p>You can find out the source code of our hack at <a href="https://github.com/creanyx/groupSMS">Github</a>.</p>
 
         </section>
 
@@ -80,14 +90,14 @@ To add new posts, simply add a file in the <code>_posts</code> directory that fo
             
                 <figure class="author-image">
                     <a class="img" href="/" style="background-image: url(/assets/images/profile.png)">
-                    <span class="hidden">Your Name's Picture</span></a>
+                    <span class="hidden">Shakeel Shafiq's Picture</span></a>
                 </figure>
                 <section class="author">
                     <!-- Author Name -->
-                    <h4> Your Name </h4>
+                    <h4> Shakeel Shafiq </h4>
                     <!-- Author Bio -->
                     <p> 
-                        Here goes the author description. You might want to place some links too in here
+                        Shakeel is an Open Source Developer and he writes about Startups and Technology. He is also acting as Partner Development at Creanxy.
                     </p>
                 </section>                
             
@@ -95,15 +105,15 @@ To add new posts, simply add a file in the <code>_posts</code> directory that fo
             <!-- Share links section -->
             <section class="share">
     <h4>Share this post</h4>
-    <a class="icon-twitter" href="http://twitter.com/share?text=Welcome to Jekyll!&amp;url=http://yourblog-domain.com/thriller/comedy/horror/2013/11/10/welcome-to-jekyll.html"
+    <a class="icon-twitter" href="http://twitter.com/share?text=Hack days at Creanyx are Fridays!&amp;url=http://creanyx.com/blog/hacking/twilio/node.js/2015/05/16/friday-hack-day.html"
         onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
         <span class="hidden">Twitter</span>
     </a>
-    <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://yourblog-domain.com/thriller/comedy/horror/2013/11/10/welcome-to-jekyll.html"
+    <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://creanyx.com/blog/hacking/twilio/node.js/2015/05/16/friday-hack-day.html"
         onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
         <span class="hidden">Facebook</span>
     </a>
-    <a class="icon-google-plus" href="https://plus.google.com/share?url=http://yourblog-domain.com/thriller/comedy/horror/2013/11/10/welcome-to-jekyll.html"
+    <a class="icon-google-plus" href="https://plus.google.com/share?url=http://creanyx.com/blog/hacking/twilio/node.js/2015/05/16/friday-hack-day.html"
        onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
         <span class="hidden">Google+</span>
     </a>
@@ -120,7 +130,7 @@ To add new posts, simply add a file in the <code>_posts</code> directory that fo
 
     <footer class="site-footer clearfix">
       <section class="copyright">
-        <a href="/">Your New Jekyll Site</a> &copy; 
+        <a href="/">Creanyx</a> &copy; 
                &bull; All rights reserved.
       </section>
       <section class="poweredby">Made with Jekyll using 
