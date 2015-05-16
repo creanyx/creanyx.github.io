@@ -13,3 +13,4 @@ google_analytics: 'UA-XXXXXXXX-X'
 # Details for the RSS feed generator
 url:            'http://creanyx.github.io'
 author:         'Shakeel Shafiq'
+authorDescription:         'Shakeel Shafiq'
