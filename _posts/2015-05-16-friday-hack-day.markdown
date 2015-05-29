@@ -30,4 +30,4 @@ Ali joined us in this hack and was supporting us morally.
 
 ![relaxjs](https://raw.githubusercontent.com/creanyx/images/master/IMG_1264.jpg "Relax.JS")
 
-You can find out the source code of our hack at [Github](https://github.com/creanyx/groupSMS).
+You can find out the source code of our hack at [Github](https://github.com/creanyx/lingo).
