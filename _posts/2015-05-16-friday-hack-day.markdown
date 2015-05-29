@@ -1,31 +1,33 @@
 ---
 layout: post
-title:  "Hack days at Creanyx are Fridays!"
+title:  "Play Lingo in JavaScript"
 date:   2015-05-16 10:18:00
-categories: Hacking Twilio Node.js
+categories: Game Javascript Node.js
 ---
 
-At Creanyx we are organizing Hack days on Fridays. We will spend half of the day working on awesome new ideas as well as contributing to open source community.
+Last friday at creanyx we started our official hackdays and we created a fix for contact sharing [Source](https://github.com/creanyx/groupSMS)
 
-This Friday we worked to solve a particular problem that I faced once I went for Hiking. Here in Islamabad where we go for hike, we have a bad reception for 3G and a common problem to get in connection with new hiking group members is the need to share contact numbers.
+This friday we came up with an idea for creating a TV show game by the name of [Lingo](http://en.wikipedia.org/wiki/Lingo_(U.S._game_show)) in JavaScript. So we fired our jetpacks and did a hack session. I was working on the front end mechanics while Ahmad was working on the back end mechanics of the game.
 
-Here is the scenario: I went for hiking and I meet 5-6 new hiking members and we want to share contact numbers with each other, one solution is that I visit each member and collect the number and every other member has to do same. This can be good for small numbers but it can go wild if members are greater in number.
+The rules of the games are very simple.
 
-There is an obvious solution that we can get in contact with each other and that is to use an online group like Facebook group, but lets suppose no one is on Facebook :P (obviously that is an assumption) so for that case we all need to share each other's contact number with each other.
-
-We solved this using Twilio and here is the breakdown of how it works:
-
-* One of the group members sends a request to a twilio number with a particular text saying "list".
-* Twilio number sends back a randomly generated identifier with text saying "Ask your group to send me in message body with in 5mins."
-* Every member sends that id to the twilio number and that's all.
-* After 5 minutes each member who opted in will receive a text message which includes the numbers of each member.
+* You have to judge a five letter word with a 5 chances in hand.
+* Only first letter is given to you as a starting point.
+* As an example if the word is "water" you will be given with w to start with.
+* You make a guess and add the following letters, let's say you type in "wound".
+* On pressing Enter the system will process your input.
+* As "wound" only matches "water" with a single letter which is "w" the system will show all the letters except "w" in red.
+* If you have entered "waste" then the system have shown you "wa" in green.
+* If your letter is present in the final word but is not on the right location then it will be shown in blue background. This is giving you a hint that the letter is present and you can think of any other which contains the letter on a different position.
+* Once you judge the correct the right word you will see a congratulations message.
+* Or you can play again by pressing the playagain button.
 
 Here is the screen shot in action.
 
-![screenshot](https://raw.githubusercontent.com/creanyx/images/master/IMG_1256.jpg "Screenshot")
+![screenshot](https://raw.githubusercontent.com/creanyx/images/master/Screen%20Shot%202015-05-29%20at%2010.39.jpg "Screenshot")
 
-That was fun working out. We have also introduced a space at Creanyx calling it RELAX.JS which basically says relax and write JavaScript.
+Ali joined us in this hack and was supporting us morally. 
 
-![relaxjs](https://raw.githubusercontent.com/creanyx/images/master/RelaxJS.jpg "Relax.JS")
+![relaxjs](https://raw.githubusercontent.com/creanyx/images/master/IMG_1264.jpg "Relax.JS")
 
 You can find out the source code of our hack at [Github](https://github.com/creanyx/groupSMS).
