@@ -64,15 +64,15 @@ post_class: post-template
             <!-- If we want to display author's name and bio -->
             {% if site.author %}
                 <figure class="author-image">
-                    <a class="img" href="{{ site.baseurl }}" style="background-image: url(/assets/images/profile.png)">
-                    <span class="hidden">{{site.author}}'s Picture</span></a>
+                    <a class="img" href="{{ site.baseurl }}" style="background-image: url({{page.authorimage}})">
+                    <span class="hidden">{{page.author}}'s Picture</span></a>
                 </figure>
                 <section class="author">
                     <!-- Author Name -->
-                    <h4> {{ site.author }} </h4>
+                    <h4> {{ page.author }} </h4>
                     <!-- Author Bio -->
                     <p> 
-                        Shakeel is an Open Source Developer and he writes about Startups and Technology. He is also acting as Partner Development at Creanxy.
+                        {{ page.authorbio }}
                     </p>
                 </section>                
             {% endif %}
