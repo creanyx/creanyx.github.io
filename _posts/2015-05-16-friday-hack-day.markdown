@@ -2,6 +2,8 @@
 layout: post
 title:  "Play Lingo in JavaScript"
 date:   2015-05-16 10:18:00
+author: Shakeel Shafiq
+authorbio : Shakeel is an Open Source Developer.
 categories: Game Javascript Node.js
 ---
 
