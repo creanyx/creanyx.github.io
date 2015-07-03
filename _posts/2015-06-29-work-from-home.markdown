@@ -1,33 +1,19 @@
 ---
 layout: post
-title:  "Play Lingo in JavaScript"
-date:   2015-05-16 10:18:00
-categories: Game Javascript Node.js
+title:  "Letting employees work from home results in greater productivity? - CREANYX thinks a bit differently!"
+date:   2015-06-29 10:18:00
+categories: Hr culture
 ---
 
-Last friday at creanyx we started our official hackdays and we created a fix for contact sharing [Source](https://github.com/creanyx/groupSMS)
+Who doesn't want to wake up late in the morning in their own pajamas to a relaxed cosy environment like home and also earn millions of rupees? Of Course everyone! But CREANYX thinks differently about this. We at CREANYX get the same cosy and relaxed home environment right here in the office where we can socialize, relax and enjoy a lot of benefits along with work. Then who would want to take work home if he gets this amazing opportunity to wrap up his work in an office like CREANYX.
 
-This friday we came up with an idea for creating a TV show game by the name of [Lingo](http://en.wikipedia.org/wiki/Lingo_(U.S._game_show)) in JavaScript. So we fired our jetpacks and did a hack session. I was working on the front end mechanics while Ahmad was working on the back end mechanics of the game.
+Work at CREANYX involves working in a team where members can effectively interact and collaborate with each other every single minute for sharing important information, data and also important pieces of advice. With this, it is also important for CREANYX to raise its productivity and achieve the personal and professional growth of its team. So, instead of letting its team members work from home it has already created such cosy and relaxed environment for them that they feel at home and raise productivity right here from the office.
+The reason why CREANYX did not comply with this statement and why it thinks differently is that working from home can result into :
 
-The rules of the games are very simple.
+* Isolation of its team members, they get isolated from other members and also from that in house IT person's assistance at their service if anything goes wrong with their technology.
 
-* You have to judge a five letter word with a 5 chances in hand.
-* Only first letter is given to you as a starting point.
-* As an example if the word is "water" you will be given with w to start with.
-* You make a guess and add the following letters, let's say you type in "wound".
-* On pressing Enter the system will process your input.
-* As "wound" only matches "water" with a single letter which is "w" the system will show all the letters except "w" in red.
-* If you have entered "waste" then the system have shown you "wa" in green.
-* If your letter is present in the final word but is not on the right location then it will be shown in blue background. This is giving you a hint that the letter is present and you can think of any other which contains the letter on a different position.
-* Once you judge the correct the right word you will see a congratulations message.
-* Or you can play again by pressing the playagain button.
+* Working from home also creates distraction for them , they can get tempted by the sound their favourite TV show and might delay work for an hour. That one hour? is very precious to CREANYX. 
 
-Here is the screen shot in action.
+* Also if members work from home they will have irregular sleep times and naturally they will delay the start of their work which will be losing productivity. 
 
-![screenshot](https://raw.githubusercontent.com/creanyx/images/master/Screen%20Shot%202015-05-29%20at%2010.39.jpg "Screenshot")
-
-Ali joined us in this hack and was supporting us morally. 
-
-![relaxjs](https://raw.githubusercontent.com/creanyx/images/master/IMG_1264.jpg "Relax.JS")
-
-You can find out the source code of our hack at [Github](https://github.com/creanyx/lingo).
+Other than these professional cons of working from home a member also disturbs his own family life, making his wife and children annoyed at him and Oh,we don't want that! We want our team members to have a peaceful personal life so they can focus and deliver quality results to us!
