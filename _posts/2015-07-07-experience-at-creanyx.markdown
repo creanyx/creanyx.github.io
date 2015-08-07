@@ -2,9 +2,9 @@
 layout: post
 title:  "Experience at Creanyx"
 date:   2015-07-07 02:37:00
-author: Shakeel Shafiq
-authorbio : Shakeel is an Open Source Developer.
-categories: Game Javascript Node.js
+author: Sakina Murtaza
+authorbio : 
+categories: Intern
 ---
 
 
