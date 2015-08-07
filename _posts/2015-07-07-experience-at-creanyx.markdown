@@ -3,7 +3,7 @@ layout: post
 title:  "Experience at Creanyx"
 date:   2015-07-07 02:37:00
 author: Sakina Murtaza
-authorbio : 
+authorbio : Media manager at Creanyx
 categories: Intern
 ---
 
