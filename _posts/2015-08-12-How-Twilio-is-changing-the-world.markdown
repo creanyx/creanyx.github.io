@@ -13,8 +13,8 @@ Twilio is a giant company based in San Francisco, California that provides cloud
 Twilio has changed the world through its next level voice and text message applications. These are some of the solutions that Twilio has provided :
 
 * Builds voice applications for a worldwide network and controlling , making and receiving calls through one API.
-*Provides a text message service, generating SMS to and from a applications to mobile, short code, toll free and local numbers at local rates that are way cheaper.
-*SKDs and real time infrastructure for video chatting in mobile and web applications.
-*Send and receive more than 30 SMS from a 5-6 digit phone number in Canada, USA and UK.
+* Provides a text message service, generating SMS to and from a applications to mobile, short code, toll free and local numbers at local rates that are way cheaper.
+* SKDs and real time infrastructure for video chatting in mobile and web applications.
+* Send and receive more than 30 SMS from a 5-6 digit phone number in Canada, USA and UK.
 
 Coca Cola is one of the customers of Twilio that uses the Twilio SMS service. When cafes and restaurants have problem with the vending machines or require refills, they call Coca Cola enterprise. And when Coca Cola has to send a technician to their customers they appoint the right technician using this Twilio SMS to fix the problem .
