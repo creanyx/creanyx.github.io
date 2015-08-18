@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Giving Back to Our Society"
-date:   2015-08-18 10:18:00
+date:   2015-08-18 04:18:00 PM
 author: Sakina Murtaza
 authorbio : Sakina is a community manager at Creanyx.
 categories: Hack day special 
