@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Giving Back to Society"
+title:  "Giving Back to Our Society"
 date:   2015-08-18 10:18:00
 author: Sakina Murtaza
 authorbio : Sakina is a community manager at Creanyx.
