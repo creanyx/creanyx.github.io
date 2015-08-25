@@ -1,0 +1,16 @@
+---
+layout: post
+title: "Grab It"
+date: 2015-08-25 10:18:00
+author: Sakina Murtaza
+authorbio : Sakina is the community manager at Creanyx. 
+categories: Hack Day Special 
+---
+We were having our weekly meetings at Creanyx, the usual tasks being discussed and then comes the brainstorming session for our hack day - we agreed that there were no magazines or websites pertaining to the capital of Pakistan specifically for special offers of major brands, and the team was off to work, we were given 3 hours to come up with the first draft. So basically, what the site contains is a list of special offers all under one roof. Who are we targeting? All you shopaholics!! Grab your wallet and hit all the latest offers in town, You’re welcome :)
+
+Don’t forget to visit our site http://qoryx.com/
+
+P.s we’ll be improving our site on an ongoing basis. 
+
+
+
