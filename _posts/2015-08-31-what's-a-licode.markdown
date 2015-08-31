@@ -6,6 +6,7 @@ author: Shakeel Shafique
 authorbio : Shakeel is an Open Source Developer
 categories: Hack Day Special 
 ---
+
 Licode is an Open Source WebRTC platform which can be used to create applications which includes video/audio communication. Let’s say you want to have your own secure server deployed which can work as a video conferencing platform, licode can handle such requirements. Using Licode client side and server side API, one can record all connected participant video or audio. To do that on client side you need to execute that line in javascript.
 
 `` room.startRecording(localStream);``
