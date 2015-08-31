@@ -25,7 +25,7 @@ Where “from” variable has path of video which has been recorded and saved by
 
 ``exec("ffmpeg -i "+from+" "+to+" ");``
 
-Now “exec” is function in node js which is used to execute commands in shell. So, in that we are asking ffmpeg to convert an mkv recorded video to “webm” and “webm” is format which all major browsers video tag supports. If you want to convert video to “mp4” u need to do that
+Now “exec” is function in node js which is used to execute commands in shell. So, in that we are asking ffmpeg to convert an mkv recorded video to “webm” and “webm” is format which all major browsers video tag supports. If you want to convert video to “mp4” you need to do that
 
 ``var from = GLOBAL.config.erizoController.recording_path + recordingId + '.mkv';``
 ``var to = GLOBAL.config.erizoController.recording_path + recordingId + '.mp4';``
@@ -39,5 +39,5 @@ Its that simple. Now just pass that path to video tag
     Your browser does not support the video tag.
 </video></code><pre>
 
-Note: For conversion u need to install “ffmpeg” installed on “ubuntu”. To install “ffmpeg” please read and follow that article http://linuxg.net/how-to-install-ffmpeg-2-4-2-on-ubuntu-14-04-linux-mint-17-elementary-os-0-3-deepin-2014-and-other-ubuntu-14-04-derivatives/
+Note: For conversion you need to install “ffmpeg” installed on “ubuntu”. To install “ffmpeg” please read and follow that article <http://linuxg.net/how-to-install-ffmpeg-2-4-2-on-ubuntu-14-04-linux-mint-17-elementary-os-0-3-deepin-2014-and-other-ubuntu-14-04-derivatives/>
 
