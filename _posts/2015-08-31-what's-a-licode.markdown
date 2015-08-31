@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: "What's a Licode"
 date: 2015-08-31 11:18:00
@@ -43,5 +43,5 @@ Its that simple. Now just pass that path to video tag
 
 (Note: For conversion you need to install “ffmpeg” installed on “ubuntu”. To install “ffmpeg” please read and follow that article 
 
-<http://linuxg.net/how-to-install-ffmpeg-2-4-2-on-ubuntu-14-04-linux-mint-17-elementary-os-0-3-deepin-2014-and-other-ubuntu-14-04-derivatives/)>
+<http://linuxg.net/how-to-install-ffmpeg-2-4-2-on-ubuntu-14-04-linux-mint-17-elementary-os-0-3-deepin-2014-and-other-ubuntu-14-04-derivatives/>
 
