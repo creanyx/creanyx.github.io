@@ -2,15 +2,15 @@
 layout: post
 title: "What's a Licode"
 date: 2015-08-31 10:18:00
-author: Sakina Murtaza
-authorbio : Sakina is the community manager at Creanyx. 
+author: Shakeel shafique
+authorbio : Shakeel is an Open Source Developer. 
 categories: Hack Day Special 
 ---
 Licode is an Open Source WebRTC platform which can be used to create applications which includes video/audio communication. Let’s say you want to have your own secure server deployed which can work as a video conferencing platform, licode can handle such requirements. Using Licode client side and server side API, one can record all connected participant video or audio. To do that on client side you need to execute that line in javascript 
 
 ``room.startRecording(localStream);``
 
-After that a message is send to server using websockets to record video and in return server returns videoid, if video id is returned that means video recording has been started successfully. Now, server side save that video in “mkv” format with a little poor video quality and “mkv” is too much compressed file. Now problem is HTML5 video player do not support “mkv” video format. I experienced that issue when i was developing an app in licode. After spending 5 hours on google searching solution came into my mind was to convert recorded video to mp4 using ffmpeg right after “stopRecorder” event is called.
+After that a message is send to server using websockets to record video and in return server returns videoid, if video ID is returned that means video recording has been started successfully. Now, server side saves that video in “mkv” format with a little poor video quality and “mkv” is too much compressed file. Now problem is HTML5 video player do not support “mkv” video format. I experienced that issue when i was developing an app in licode. After spending 5 hours on google searching solution came into my mind was to convert recorded video to mp4 using ffmpeg right after “stopRecorder” event is called.
 
 Now “stopRecorder” event implementation is in file “licode/erizo_controller/erizoController/erizoController.js”. So open that file and locate that function in that file
 
