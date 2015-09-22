@@ -5,7 +5,7 @@ date: 2015-09-22 04:18:00
 author: Sakina Murtaza
 ---
 Twilio is a developer-centric communication. We’ve already briefed you about twilio and how it’s changing the world around us. 
-See the link below: https://github.com/twilio
+See the link below: <https://github.com/twilio/>
 
 Twilio’s ambitious approach is reflected in their aggressive marketing strategy,  their concentration towards platform evangelism is appreciable, by taking this approach they have attracted many big companies and individual users alike. Companies like ebay use twilio for efficiency, StubHub which the biggest online buying and selling place for tickets uses twilio to automatically make time sensitive phone calls to sellers to ensure the availability of tickets prior to an event, a workflow that used to require a great deal of manual intervention.
 
