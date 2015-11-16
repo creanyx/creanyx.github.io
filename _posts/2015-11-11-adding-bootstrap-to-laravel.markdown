@@ -11,10 +11,10 @@ Now bootstrap is the most popular HTML, CSS, and JS framework for developing res
 JavaScript will work on HTML. Like in bootstrap 3 for fixed navbar, html formatting should be like that 
 Using Bootstrap in Laravel projects is not that difficult. Like other CSS and JS files, just place “bootstrap.css” or “bootstrap.min.css” in “laravel_installation_path/public/assets/css”, and place “bootstrap.js” or “bootstrap.min.js” in “laravel_installation_path/public/assets/js”. Now anywhere in you view files write that line 
 <pre><code> asset('assets/css/bootstrap.css')</code></pre>
-* or if you are using bootstrap minified CSS then write
+*or if you are using bootstrap minified CSS then write
 <pre><code> asset('assets/css/bootstrap.min.css')</code></pre>
-* and for js files please write that line anywhere in your view files
+*and for js files please write that line anywhere in your view files
 <pre><code> asset('assets/js/bootstrap.css')</code></pre>
-* or if you are using bootstrap minified JS then write
+*or if you are using bootstrap minified JS then write
 <pre><code> asset('assets/js/bootstrap.min.js')</code><pre>
-Now, bootstrap also comes with “glyphicons”. Bootstrap use “glyphicons” for different symbols and these symbols increases site usability. Just copy “glyphicons” files to “laravel_installation_path/public/assets/fonts”. By following these steps bootstrap will be able to fetch font files. 
+*Now, bootstrap also comes with “glyphicons”. Bootstrap use “glyphicons” for different symbols and these symbols increases site usability. Just copy “glyphicons” files to “laravel_installation_path/public/assets/fonts”. By following these steps bootstrap will be able to fetch font files. 
