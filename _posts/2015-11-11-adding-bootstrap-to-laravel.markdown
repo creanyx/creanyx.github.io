@@ -7,7 +7,7 @@ Author: Ahmed Khakwani
 Laravel is a free, open source PHP framework. Laravel was created by Taylor Otwell. It is intended for web application which are following the MVC architectural pattern. As of March 2015 Laravel is regarded as one of the most popular PHP framework. 
 
 Now bootstrap is the most popular HTML, CSS, and JS framework for developing responsive, mobile first projects on the web. Many web developers use bootstrap for designing UI. Now bootstrap has html formatting rules, if you follow those rules then your site will adjust it’s UI according to screen width, and by following those HTML formatting rule
-[!{image alt text here]https://raw.githubusercontent.com/Sakina-Murtaza/image/607765171a1a9b81afbb63ca97f86714903d0b87/bootstrap-code1.png] 
+![alt text](https://raw.githubusercontent.com/Sakina-Murtaza/image/607765171a1a9b81afbb63ca97f86714903d0b87/bootstrap-code1.png) 
 JavaScript will work on HTML. Like in bootstrap 3 for fixed navbar, html formatting should be like that 
 Using Bootstrap in Laravel projects is not that difficult. Like other CSS and JS files, just place “bootstrap.css” or “bootstrap.min.css” in “laravel_installation_path/public/assets/css”, and place “bootstrap.js” or “bootstrap.min.js” in “laravel_installation_path/public/assets/js”. Now anywhere in you view files write that line 
 <pre><code> asset('assets/css/bootstrap.css')</code></pre>
