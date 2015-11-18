@@ -15,7 +15,8 @@ line-height: 25px;
 }``
 
 That style will be applied on all HTML elements in a page. To apply CSS style on all elements with same tag name you need to write 
-`` p {
+
+``p {
 color: green;
 font-size: 20px;
 line-height: 25px;
@@ -35,6 +36,7 @@ Mostly we used to select "Input" tags with their attribute name.
 font-size: 20px;
 line-height: 25px;
 }``
+
 In that code we are selecting input tags which have attribute named "text" and attribute value is "text". To select input tags with type submit we need to write
 
 ``input[type='submit'] { 
@@ -62,6 +64,7 @@ To assign CSS style to class "box"
 	}``
 	
 and To assign CSS style to id "container"
+
 ``#container {
    	padding: 20px;
    	margin: 10px;
@@ -77,6 +80,7 @@ If you want to apply CSS to a class or tag or id inside a class or id, then CSS 
 	}``
 	
 <h2> Adjacent Siblings Combinator </h2>
+
 A selector that uses the adjacent sibling combinator uses the plus symbol (+), and is almost the same as the general sibling selector. The difference is that the targeted element must be an immediate sibling, not just a general sibling. For that  CSS code should be like: 
 
 ``p + p {
@@ -93,16 +97,19 @@ Too apply CSS effect on mouse hover CSS should be like
 	}``
 	
 For active CSS should be like
+
 ``a:active {
 	color: red;
 	}``
 	
-For visited CSS should be like 
+For visited CSS should be like
+ 
 ``a:visited {
 	color: red;
 	}``	
 
 For focus CSS should be like
+
 ``a:focus {
 	color: red;
 	}``
