@@ -24,6 +24,7 @@ line-height: 25px;
 Here "P" is tag name 
 
 In that code "P" is tag name, it can be any other tag name. Using that type of CSS selection you can apply CSS style on all DIV tags, Table tags, or any other HTML tag.
+
 <h2> Now, how to Select HTML element using its attribute name </h2> 
 
 Mostly we used to select "Input" tags with their attribute name.
@@ -45,10 +46,13 @@ line-height: 25px;
 <h2> ID and Class Selectors </h2>
 
 What are ID's and Classes. ID is HTML tag attribute, its like identity of HTML tag in whole page and main thing is it should be unique. Class is an HTML tag attribute, and more then one tag class can be same. Example of ID is like 
+
 ``<div id="container"></div> ``
 
 An example of class is like 
+
 ``<div class="box"></div>``
+
 To assign CSS style to class "box" 
 
 ``.box {
@@ -63,7 +67,9 @@ and To assign CSS style to id "container"
    	margin: 10px;
    	width: 240px;
 	}``
+	
 If you want to apply CSS to a class or tag or id inside a class or id, then CSS gives you a solution for that. Consider HTML is like 
+
 ``#container .box-2 {
 	color: #000;
 	font-size: 10px;
@@ -72,14 +78,16 @@ If you want to apply CSS to a class or tag or id inside a class or id, then CSS 
 	
 <h2> Adjacent Siblings Combinator </h2>
 A selector that uses the adjacent sibling combinator uses the plus symbol (+), and is almost the same as the general sibling selector. The difference is that the targeted element must be an immediate sibling, not just a general sibling. For that  CSS code should be like: 
+
 ``p + p {
    font-size: 1.5em;
    margin-bottom: 0px;
-}``
+   }``
 
 <h2> Apply CSS effects on mouse hover, active, focus and visited </h2>
 
 Too apply CSS effect on mouse hover CSS should be like 
+
 ``a:hover {
 	color: red;
 	}``
