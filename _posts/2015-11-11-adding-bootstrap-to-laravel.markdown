@@ -28,4 +28,4 @@ Using Bootstrap in Laravel projects is not that difficult. Like other CSS and JS
 
 <pre><code> asset('assets/js/bootstrap.min.js')</code></pre>
 
-* Now, bootstrap also comes with “glyphicons”.Bootstrap use “glyphicons” for different symbols and these symbols increases site usability. Just copy “glyphicons” files to “laravel_installation_path/public/assets/fonts”. By following these steps bootstrap will be able to fetch font files. 
+Now, bootstrap also comes with “glyphicons”.Bootstrap use “glyphicons” for different symbols and these symbols increases site usability. Just copy “glyphicons” files to “laravel_installation_path/public/assets/fonts”. By following these steps bootstrap will be able to fetch font files. 
